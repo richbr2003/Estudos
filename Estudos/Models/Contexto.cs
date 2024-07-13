@@ -17,7 +17,7 @@ namespace Estudos.Models
         //public DbSet<Lanches> lanches { get; set; }
         //public DbSet<BebidasTipo> bebidastipo { get; set; }
         public DbSet<Pessoa> pessoa { get; set; }
-
+      
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
 

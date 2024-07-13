@@ -1,4 +1,5 @@
-﻿using Dominio.Contrato;
+﻿using Dominio;
+using Dominio.Contrato;
 using Estudos.Models;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Web;
 
 namespace RepositorioEF
 {
-    public class UserRepositorioEF : IRepositorioUser<Pessoa>
+    public class UserRepositorioEF : IRepositorioPessoa<Pessoa>
     {
         private readonly Contexto contexto;
 

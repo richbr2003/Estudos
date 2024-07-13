@@ -17,7 +17,7 @@ namespace Dominio.Contrato
         T ListarPorId(string AdminId);
     }
 
-    public interface IRepositorioUser<T> where T : class
+    public interface IRepositorioPessoa<T> where T : class
     {
         void Salvar(T entidade);
 
