@@ -27,7 +27,7 @@ namespace Estudos.Controllers
 
             //var view = new Microsoft.Reporting.WebForms.ReportViewer();
 
-            //teste
+            //teste novo
             //view.ProcessingMode = Microsoft.Reporting.WebForms.ProcessingMode.Local;
 
             var listagemClientes =contexto.pessoa.OrderBy(n => n.id).ToList<Pessoa>();
